@@ -10,3 +10,5 @@ Urban&Natural collection: https://github.com/rasche65/Desc_UrbNat
 
   H_RDG     histograms-of-attributes (per image) for ridges
   RAW_RDG   all ridge descriptors for the entire collection
+  
+
