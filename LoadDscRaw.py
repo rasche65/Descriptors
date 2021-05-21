@@ -66,7 +66,10 @@ def LoadDscCont(filePath, dty):
     S.Ori   = Unpack1AttFlt(fo, nDsc)
     S.PosV  = Unpack1AttFlt(fo, nDsc)
     S.PosH  = Unpack1AttFlt(fo, nDsc)
-    S.Crm   = Unpack1AttFlt(fo, nDsc*3).reshape((-1,3))
+    
+    S.Red   = Unpack1AttFlt(fo, nDsc)
+    S.Grn   = Unpack1AttFlt(fo, nDsc)
+    S.Blu   = Unpack1AttFlt(fo, nDsc)
 
     # =====  Zugehoer  =====
     S.IxImg = Unpack1AttInt(fo, nDsc) # image index
